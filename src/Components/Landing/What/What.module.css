@@ -1,0 +1,38 @@
+.main {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.whatContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.whatContainer h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 2.563rem;
+  letter-spacing: -0.015rem;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.whatFlex {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.leftFlex div {
+  border-left: 2px solid #0bce5a;
+  gap: 2rem;
+  /* width: 50%;     */
+}
+
+.rightFlex div {
+  border-right: 2px solid #0bce5a;
+  gap: 2rem;
+  /* width: 50%; */
+}

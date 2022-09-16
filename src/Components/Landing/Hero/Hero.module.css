@@ -1,0 +1,46 @@
+.main {
+  background-color: #060809;
+  height: 100vh;
+  width: 100%;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 7rem;
+}
+
+.heroContent {
+  width: 40%;
+}
+
+.heroContent h1 {
+  color: #fff;
+  padding-top: 5rem;
+  max-width: 593px;
+  font-size: 3.5rem;
+}
+
+.heroContent p {
+  color: #fff;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  margin-top: 1.4rem;
+  width: 100%;
+}
+
+.heroImg {
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.heroImg img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,103 @@
+.main {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.sectionOneContainer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.sectionOneContent h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 2.563rem;
+  letter-spacing: -0.015rem;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.sectionOneContent p {
+  color: #060809;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: -0.013rem;
+  line-height: 1.625rem;
+  font-stretch: normal;
+  font-style: normal;
+  width: 88%;
+  margin: 0 auto;
+  margin-top: 0.938rem;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 3.125rem;
+  padding-bottom: 5rem;
+}
+
+.textContainer,
+.textContainer1 {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* .textContainer > div {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  width: 80px;
+  height: 70px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+  margin-bottom: 1rem;
+  border: 1px solid #0bce5a;
+} */
+
+.textContainer h4,
+.textContainer1 h4 {
+  font-stretch: bold;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 1.125rem;
+  letter-spacing: -0.007rem;
+  line-height: 1.625rem;
+  text-align: left;
+  color: #000;
+}
+
+.textContainer p,
+.textContainer1 p {
+  color: #000;
+  font-size: 1.043rem;
+  font-weight: 400;
+  letter-spacing: -0.013rem;
+  line-height: 1.625rem;
+  text-align: left;
+  margin-top: 0.5rem;
+  /* font-weight: bold; */
+}
+
+.textContainer1 {
+  width: 100%;
+  border-right: 2px solid #0bce5a;
+  margin-right: 3.1rem;
+}
+
+.textContainer1 h4,
+.textContainer1 p {
+  text-align: right;
+  width: 88%;
+}
+
+.textContainer1 h4,
+.textContainer h4 {
+  font-weight: bold;
+}

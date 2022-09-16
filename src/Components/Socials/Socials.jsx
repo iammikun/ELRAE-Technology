@@ -1,0 +1,43 @@
+import React from "react";
+import classes from "./Socials.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faTwitter,
+  faLinkedin,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
+
+const Socials = () => {
+  return (
+    <div className={classes.main}>
+      <div className={classes.socialIcon}>
+        <div className={classes.singleCol}>
+          <a
+            href="https://www.instagram.com/cykle__/?hl=en"
+            className={classes.facebook}
+          >
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a
+            href="https://www.instagram.com/cykle__/?hl=en"
+            className={classes.instagram}
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a href="https://twitter.com/codeFinga" className={classes.twitter}>
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/timilehin-onifara-80012522b/"
+            className={classes.linkedin}
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Socials;

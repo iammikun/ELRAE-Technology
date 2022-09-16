@@ -1,0 +1,62 @@
+.main {
+  padding-top: 6rem;
+}
+
+.newsContent {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.newsTxt h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 2.563rem;
+  letter-spacing: -0.015rem;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.newsTxt p {
+  color: #060809;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: -0.013rem;
+  line-height: 1.625rem;
+  font-stretch: normal;
+  font-style: normal;
+  margin-top: 0.938rem;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.boxOne,
+.boxTwo,
+.boxThree,
+.boxFour {
+  border: none;
+  box-shadow: 0px 0px 24px 0px hsla(0, 0%, 0%, 0.04);
+  background: #feffff;
+  border-radius: 5px;
+  margin-right: 1rem;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+}
+
+.boxOne:hover,
+.boxTwo:hover,
+.boxThree:hover,
+.boxFour:hover {
+  background: #3bb06a;
+  color: #fff;
+  transform: translateX(0.4rem) translateY(-1rem);
+}
