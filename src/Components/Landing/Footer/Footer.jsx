@@ -4,66 +4,27 @@ import FooterSocials from "../Footer/FooterSocials/FooterSocials.jsx";
 
 const Footer = () => {
   return (
-    <div className={classes.main}>
+    <div className={classes.main} id="Login">
       <div className={classes.footer}>
-        <div className={classes.footerContent}>
-          <h4>About</h4>
-          <p>
-            <a href="/">Support</a>
-          </p>
-          <p>
-            <a href="/">Help Center</a>
-          </p>
-          <p>
-            <a href="/">Contact Us</a>
-          </p>
-        </div>
-        <div className={classes.footerContent}>
-          <h4>Resources</h4>
-          <p>
-            <a href="/">Why ELRAE</a>
-          </p>
-          <p>
-            <a href="/">Terns of Use</a>
-          </p>
-          <p>
-            <a href="/">Team</a>
-          </p>
-          <p>
-            <a href="/">Pricing</a>
-          </p>
-        </div>
-        <div className={classes.footerContent}>
-          <h4>Resources</h4>
-          <p>
-            <a href="/">Why ELRAE</a>
-          </p>
-          <p>
-            <a href="/">Terns of Use</a>
-          </p>
-          <p>
-            <a href="/">Team</a>
-          </p>
-          <p>
-            <a href="/">Pricing</a>
-          </p>
-        </div>
-        <div className={classes.footerContent}>
-          <h4>Resources</h4>
-          <p>
-            <a href="/">Why ELRAE</a>
-          </p>
-          <p>
-            <a href="/">Terns of Use</a>
-          </p>
-          <p>
-            <a href="/">Team</a>
-          </p>
-          <p>
-            <a href="/">Pricing</a>
-          </p>
-        </div>
+        <h2>Get in Touch</h2>
       </div>
+      <form className={classes.form}>
+        <input type="text" placeholder="Full Name" />
+        <div className={classes.diffInput}>
+          <input type="text" placeholder="Email Address" />
+          <input type="text" placeholder="Phone" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message..."
+        ></textarea>
+        <a href="mailto:technical@elraetechnologies.com" type="button">
+          <button>SEND MESSAGE</button>
+        </a>
+      </form>
       <hr />
       <FooterSocials />
     </div>

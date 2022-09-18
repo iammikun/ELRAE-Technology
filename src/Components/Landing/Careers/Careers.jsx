@@ -13,7 +13,7 @@ const Careers = () => {
             have what it takes to change Africa?
           </p>
         </div>
-        <a href="/">
+        <a href="mailto:technical@elraetechnologies.com">
           <button>JOIN US</button>
         </a>
       </div>

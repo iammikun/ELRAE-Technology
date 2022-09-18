@@ -6,7 +6,7 @@ const Header = () => {
     <div className={classes.main}>
       <div className={classes.headerContainer}>
         <div className={classes.logoNav}>
-          <a href="/#hero">
+          <a href="/#">
             <h1>Elrae</h1>
           </a>
           <ul className={classes.navLinks}>
@@ -30,10 +30,10 @@ const Header = () => {
               <a href="/#careers">Careers</a>
             </li>
             <li>
-              <a href="/">Login</a>
+              <a href="/#Login">Login</a>
             </li>
           </ul>
-          <a href="/" type="button">
+          <a href="mailto:technical@elraetechnologies.com" type="button">
             <button>Join Us</button>
           </a>
         </div>
