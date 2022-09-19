@@ -63,23 +63,24 @@
   width: 45%;
 }
 
+.boxTwo {
+  width: 44%;
+}
+
 .boxFour {
   width: 44%;
 }
 
 .boxThree {
-  width: 46%;
+  width: 45%;
 }
 
 .boxOne p,
 .boxTwo p,
 .boxThree p,
 .boxFour p {
-  margin-top: 2rem;
-}
-
-.boxOne p {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
 }
 
 .boxOne a,
@@ -95,4 +96,77 @@
 .boxThree a:hover,
 .boxFour a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .boxContainer {
+    flex-wrap: wrap;
+  }
+
+  .boxTwo {
+    width: 44%;
+    margin-bottom: 2rem;
+  }
+
+  .boxOne {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 977px) {
+  .newsContent {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding-top: 4rem;
+  }
+
+  .boxOne,
+  .boxTwo,
+  .boxThree,
+  .boxFour {
+    padding: 1rem;
+  }
+
+  .boxOne p,
+  .boxTwo p,
+  .boxThree p,
+  .boxFour p {
+    margin-top: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .boxOne,
+  .boxTwo,
+  .boxThree,
+  .boxFour {
+    width: 95%;
+  }
+
+  .boxThree,
+  .boxFour {
+    margin-bottom: 2rem;
+  }
+
+  .boxOne {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    padding-top: 3rem;
+  }
+
+  .newsTxt h2 {
+    font-size: 2.5rem;
+  }
+
+  .newsTxt p {
+    font-size: 1.1rem;
+  }
 }

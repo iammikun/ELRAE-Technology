@@ -40,3 +40,26 @@
   opacity: 0.5;
   box-shadow: -4px 9px 65px -12px rgba(0, 0, 0, 0.75);
 }
+
+@media screen and (max-width: 920px) {
+  .singleCol {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .singleCol {
+    margin-top: 1.8rem;
+    gap: 2.2rem;
+  }
+
+  .singleCol a {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .singleCol {
+    margin-top: 3rem;
+  }
+}

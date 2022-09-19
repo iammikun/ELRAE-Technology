@@ -1,6 +1,6 @@
 .main {
   background-color: #060809;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -11,6 +11,7 @@
   width: 90%;
   margin: 0 auto;
   padding-top: 7rem;
+  padding-bottom: 8.5rem;
 }
 
 .heroContent {
@@ -20,7 +21,7 @@
 .heroContent h1 {
   color: #fff;
   padding-top: 5rem;
-  max-width: 593px;
+  /* max-width: 593px; */
   font-size: 3.5rem;
 }
 
@@ -31,7 +32,6 @@
   font-weight: 600;
   line-height: 1.6rem;
   margin-top: 1.4rem;
-  width: 100%;
 }
 
 .heroImg {
@@ -43,4 +43,64 @@
   width: 100%;
   border-radius: 8px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 977px) {
+  .heroContainer {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .heroContent h1 {
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .heroContent h1 {
+    font-size: 3.2rem;
+  }
+
+  .heroContent p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .heroContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+  }
+
+  .heroContent {
+    width: 100%;
+  }
+
+  .heroContent p {
+    width: 70%;
+    margin-top: 1.2rem;
+  }
+
+  .heroImg {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .heroContent h1 {
+    font-size: 3rem;
+  }
+
+  .heroContent p {
+    width: 95%;
+    margin-top: 1.5rem;
+  }
+
+  .heroImg {
+    width: 100%;
+  }
 }

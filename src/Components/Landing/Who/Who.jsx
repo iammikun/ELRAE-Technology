@@ -8,10 +8,10 @@ const SectionOne = () => {
         <div className={classes.sectionOneContent}>
           <h2>Who we are</h2>
           <p>
-            At ELRAE we driven by our passion for creating technology solutions
-            that empower individuals, businesses, and communities with diverse
-            needs. We are problem solvers, technologist and optimists of a
-            better future for Africa.
+            At ELRAE we are driven by our passion for creating technology
+            solutions that empower individuals, businesses, and communities with
+            diverse needs. We are problem solvers, technologist and optimists of
+            a better future for Africa.
           </p>
         </div>
         <div className={classes.flexContainer}>
@@ -23,7 +23,6 @@ const SectionOne = () => {
             </p>
           </div>
           <div className={classes.textContainer}>
-            <div></div>
             <h4>VISION</h4>
             <p>
               Do everything possible to maximise Africa's potentials through

@@ -24,6 +24,24 @@
   margin-bottom: 2rem;
 }
 
-.fooSoc .changeOf {
-  margin-top: -2rem;
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fooSoc {
+    margin-top: 2rem;
+  }
+
+  .fooSoc h4 {
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    padding: 1rem;
+  }
 }

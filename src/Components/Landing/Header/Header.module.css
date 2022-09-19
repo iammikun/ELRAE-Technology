@@ -112,3 +112,38 @@
   background-color: #3bb06a;
   transform: translateY(-10px);
 }
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  display: none;
+}
+
+.horizontal {
+  display: block;
+  width: 35px;
+  height: 1.7px;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 977px) {
+  .headerContainer {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navLinks,
+  .navBtns {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

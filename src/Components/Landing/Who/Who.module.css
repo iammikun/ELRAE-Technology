@@ -50,17 +50,6 @@
   margin-top: 2rem;
 }
 
-/* .textContainer > div {
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  width: 80px;
-  height: 70px;
-  cursor: pointer;
-  transition: 0.2s ease-out;
-  margin-bottom: 1rem;
-  border: 1px solid #0bce5a;
-} */
-
 .textContainer h4,
 .textContainer1 h4 {
   font-stretch: bold;
@@ -100,4 +89,62 @@
 .textContainer1 h4,
 .textContainer h4 {
   font-weight: bold;
+}
+
+@media screen and (max-width: 903px) {
+  .flexContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding-top: 2.5rem;
+  }
+
+  .sectionOneContainer {
+    width: 90%;
+  }
+
+  .sectionOneContent p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sectionOneContainer {
+    width: 95%;
+  }
+
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textContainer1 {
+    margin-bottom: 1rem;
+    border-right: none;
+    margin-right: 0.1rem;
+  }
+
+  .textContainer1 h4,
+  .textContainer1 p {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    padding-top: 1.8rem;
+  }
+
+  .sectionOneContent h2 {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .sectionOneContent p {
+    font-size: 1.1rem;
+    text-align: left;
+  }
 }

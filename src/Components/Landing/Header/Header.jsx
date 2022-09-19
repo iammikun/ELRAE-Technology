@@ -37,6 +37,11 @@ const Header = () => {
             <button>Join Us</button>
           </a>
         </div>
+        <div className={classes.hamburger}>
+          <span className={classes.horizontal}></span>
+          <span className={classes.horizontal}></span>
+          <span className={classes.horizontal}></span>
+        </div>
       </div>
     </div>
   );
