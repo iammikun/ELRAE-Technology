@@ -11,10 +11,10 @@ const FooterSocials = () => {
         </a>
         <div className={classes.fooSoc}>
           <h4>Address</h4>
-          <p>Grazac innovation hub,</p>
-          <p>Salawu Olabode Avenue,</p>
-          <p>Ewang Road, Idi aba</p>
-          <p>Abeokuta</p>
+          <p>Victoria Ironsi Street,</p>
+          <p>41 Crescent,</p>
+          <p>Gwarinpa Estate,</p>
+          <p>Abuja</p>
         </div>
         <div className={classes.fooSoc}>
           <h4>Follow Us</h4>
