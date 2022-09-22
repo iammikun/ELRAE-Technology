@@ -113,7 +113,7 @@
 
 @media screen and (max-width: 600px) {
   .sectionOneContainer {
-    width: 95%;
+    width: 93%;
   }
 
   .flexContainer {
@@ -146,5 +146,18 @@
   .sectionOneContent p {
     font-size: 1.1rem;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .sectionOneContent h2 {
+    font-size: 2.1rem;
+  }
+
+  .sectionOneContent p,
+  .textContainer p,
+  .textContainer1 p {
+    font-size: 1.01rem;
+    width: 100%;
   }
 }

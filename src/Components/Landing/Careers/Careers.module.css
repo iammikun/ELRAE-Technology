@@ -73,7 +73,7 @@
   }
 
   .careerTxt {
-    width: 95%;
+    width: 93%;
   }
 
   .careerTxt p {
@@ -115,5 +115,15 @@
 
   .careerContainer button {
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .careerTxt h2 {
+    font-size: 2.3rem;
+  }
+
+  .careerTxt p {
+    font-size: 1rem;
   }
 }

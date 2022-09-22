@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 977px) {
   .newsContent {
-    width: 95%;
+    width: 93%;
   }
 }
 
@@ -168,5 +168,15 @@
 
   .newsTxt p {
     font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .newsTxt h2 {
+    font-size: 2.3rem;
+  }
+
+  .newsTxt p {
+    font-size: 1rem;
   }
 }

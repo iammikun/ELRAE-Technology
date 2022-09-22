@@ -2,6 +2,7 @@
   padding-top: 5rem;
   color: #fff;
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 .main h2 {
@@ -11,7 +12,6 @@
   letter-spacing: -0.015rem;
   font-stretch: normal;
   font-style: normal;
-  margin-bottom: 2rem;
   margin-top: 0.938rem;
   align-items: center;
   text-align: center;
@@ -82,6 +82,10 @@
   .capacityFlex {
     padding: 1.5rem;
   }
+
+  .carouselContent {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -90,7 +94,7 @@
   }
 
   .main h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .carouselContainer {
@@ -102,8 +106,47 @@
     padding: 1rem;
   }
 
+  .capacityFlex h3 {
+    font-size: 1.3rem;
+  }
+
   .capacityFlex p {
-    font-size: 1rem;
+    font-size: 0.999rem;
     width: 100%;
+    line-height: 1.63rem;
+    letter-spacing: -0.001rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .main {
+    width: 100%;
+  }
+
+  .main h2 {
+    font-size: 2.3rem;
+    text-align: left;
+    align-items: left;
+    width: 97%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .capacityFlex {
+    padding: 0.5rem;
+  }
+
+  .capacityFlex h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .capacityFlex p {
+    font-size: 0.909rem;
+    width: 100%;
+  }
+
+  .carouselContent {
+    width: 83%;
   }
 }

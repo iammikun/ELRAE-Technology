@@ -1,0 +1,9 @@
+.logoNav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logoNav {
+  margin-right: 3rem;
+  margin-top: -5px;
+}

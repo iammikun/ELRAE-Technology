@@ -36,3 +36,9 @@
   gap: 2rem;
   /* width: 50%; */
 }
+
+@media screen and (max-width: 350px) {
+  .whatContainer h2 {
+    font-size: 2rem;
+  }
+}

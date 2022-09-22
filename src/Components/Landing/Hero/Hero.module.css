@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 977px) {
   .heroContainer {
-    width: 95%;
+    width: 93%;
     margin: 0 auto;
   }
 
@@ -66,7 +66,13 @@
   }
 }
 
-@media screen and (max-width: 842px) {
+@media screen and (max-width: 940px) {
+  .heroContent h1 {
+    font-size: 3.1rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
   .heroContainer {
     display: flex;
     flex-direction: column;
@@ -79,7 +85,7 @@
   }
 
   .heroContent p {
-    width: 70%;
+    width: 80%;
     margin-top: 1.2rem;
   }
 
@@ -87,6 +93,12 @@
     width: 95%;
     margin: 0 auto;
     margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .heroContent p {
+    width: 95%;
   }
 }
 
@@ -102,5 +114,15 @@
 
   .heroImg {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .heroContent h1 {
+    font-size: 2.5rem;
+  }
+
+  .heroContent p {
+    font-size: 0.926rem;
   }
 }

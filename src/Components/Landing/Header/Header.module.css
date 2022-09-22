@@ -15,135 +15,35 @@
 .headerContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  height: 100%;
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.logoNav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  width: 45%;
-}
-
-.logoNav a {
-  color: #fff;
-  margin-right: 2.188rem;
-  align-items: center;
-  text-decoration: none;
-  line-height: 1.438rem;
-  white-space: nowrap;
-  margin-bottom: 0.6rem;
-}
-
-.navLinks {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 60%;
-  justify-content: space-between;
-  list-style: none;
-}
-
-.navLinks a {
-  text-decoration: none;
-  color: #fff;
-  margin-right: 1rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  line-height: 1.438rem;
-  white-space: nowrap;
-  transition: 0.5s ease-out;
-}
-
-.navBtns {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 2rem;
-}
-
-.rightNavLinks {
-  display: flex;
-  flex-direction: row;
-  /* width: 43%; */
-  gap: 2rem;
-  list-style: none;
-}
-
-.rightNavLinks a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 0.875rem;
-  font-weight: 500;
-  line-height: 1.438rem;
-  white-space: nowrap;
-  transition: 0.5s ease-out;
-}
-
-.rightNavLinks a:hover,
-.navLinks a:hover {
-  opacity: 1;
-  color: rgb(211, 201, 201);
-}
-
-.navBtns button {
-  background-color: #0bce5a;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 5px;
-  border-style: none;
-  justify-content: center;
-  padding: 0.475rem 2rem;
-  line-height: 2;
-  text-align: center;
-  cursor: pointer;
-  transition: 0.5s ease-out;
-}
-
-.navBtns button:hover {
-  opacity: 2;
-  background-color: #3bb06a;
-  transform: translateY(-10px);
-}
-
 .hamburger {
   display: flex;
   flex-direction: column;
-  cursor: pointer;
   display: none;
 }
 
-.horizontal {
-  display: block;
-  width: 35px;
-  height: 1.7px;
-  margin: 8px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #fff;
+.hamburger .horizontal {
+  width: 25px;
+  height: 2px;
+  margin: 3px 0px;
+  background-color: white;
 }
 
-@media screen and (max-width: 977px) {
+@media screen and (max-width: 950px) {
   .headerContainer {
-    width: 95%;
-    margin: 0 auto;
+    width: 93%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .navLinks,
-  .navBtns {
-    display: none;
-  }
-
+@media screen and (max-width: 842px) {
   .hamburger {
-    display: block;
+    display: flex;
+    outline: none;
   }
 }

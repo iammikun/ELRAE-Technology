@@ -14,7 +14,7 @@ const Socials = () => {
       <div className={classes.socialIcon}>
         <div className={classes.singleCol}>
           <a
-            href="https://www.instagram.com/cykle__/?hl=en"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.facebook}
@@ -38,7 +38,7 @@ const Socials = () => {
             <FontAwesomeIcon icon={faTwitter} />
           </a>
           <a
-            href="https://www.linkedin.com/in/timilehin-onifara-80012522b/"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.linkedin}
