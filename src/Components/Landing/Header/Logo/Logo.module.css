@@ -1,6 +1,11 @@
 .logoNav a {
   text-decoration: none;
   color: #fff;
+  width: 10%;
+}
+
+.logoNav img {
+  width: 30%;
 }
 
 .logoNav {
