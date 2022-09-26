@@ -10,6 +10,7 @@ const Footer = () => {
       </div>
       <form
         action="mailto:technical@elraetechnologies.com"
+        onClick="submit"
         className={classes.form}
       >
         <input type="fullname" placeholder="Full Name" />

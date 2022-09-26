@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faTwitter,
-  faLinkedin,
-  faFacebook,
+  // faLinkedin,
+  // faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Socials = () => {
@@ -13,14 +13,14 @@ const Socials = () => {
     <div className={classes.main}>
       <div className={classes.socialIcon}>
         <div className={classes.singleCol}>
-          <a
+          {/* <a
             href="/"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.facebook}
           >
             <FontAwesomeIcon icon={faFacebook} />
-          </a>
+          </a> */}
           <a
             href="https://instagram.com/elrae.tech?igshid=YmMyMTA2M2Y="
             target="_blank"
@@ -37,14 +37,14 @@ const Socials = () => {
           >
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a
+          {/* <a
             href="/"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.linkedin}
           >
             <FontAwesomeIcon icon={faLinkedin} />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

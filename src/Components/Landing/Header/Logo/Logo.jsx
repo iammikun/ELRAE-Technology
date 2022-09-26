@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Logo.module.css";
-import Elrae from "../../../Assests/Elrae Logo.jpeg";
 
 const Logo = () => {
   return (
@@ -8,7 +7,7 @@ const Logo = () => {
       <div className={classes.headerContainer}>
         <div className={classes.logoNav}>
           <a href="/#">
-            <img src={Elrae} alt="Logo" />
+            <h1>Elrae</h1>
           </a>
         </div>
       </div>
